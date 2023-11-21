@@ -1,0 +1,42 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Cor de fundo */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Tornar o formulário centralizado verticalmente na página */
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #007bff; /* Cor de fundo do botão de envio */
+    color: #fff; /* Cor do texto do botão de envio */
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Cor de fundo do botão de envio ao passar o mouse */
+}
+
+/* Estilize a mensagem de erro */
+.error {
+    color: red;
+    margin-top: 10px;
+}

@@ -1,0 +1,41 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Cor de fundo */
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #007bff; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto do cabeçalho */
+    padding: 10px;
+    text-align: center;
+}
+
+.content {
+    margin: 20px;
+}
+
+h2 {
+    color: #007bff; /* Cor do texto do título */
+    border-bottom: 2px solid #007bff; /* Borda inferior azul */
+    padding-bottom: 5px; /* Espaçamento na parte inferior */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Borda inferior cinza claro para linhas da tabela */
+}
+
+th {
+    background-color: #007bff; /* Cor de fundo do cabeçalho da tabela */
+    color: white; /* Cor do texto do cabeçalho da tabela */
+}
